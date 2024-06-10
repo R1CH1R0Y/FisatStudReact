@@ -5,6 +5,7 @@ import AddStud from './components/AddStud';
 import RemoveStud from './components/RemoveStud';
 import SearchStud from './components/SearchStud';
 import ViewStud from './components/ViewStud';
+import ViewStudTable from './components/ViewStudTable';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Route path='/r' element={<RemoveStud/>}/>
       <Route path='/s' element={<SearchStud/>}/>
       <Route path='/v' element={<ViewStud/>}/>
+      <Route path='/vt' element={<ViewStudTable/>}/>
     </Routes>
     </BrowserRouter>
   );

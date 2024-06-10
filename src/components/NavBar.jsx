@@ -15,6 +15,7 @@ const NavBar = () => {
         <a class="nav-link" href="/r">Remove Student</a>
         <a class="nav-link" href="/s">Search Student</a>
         <a class="nav-link" href="/v">Student List</a>
+        <a class="nav-link" href="/vt">Student List</a>
       </div>
     </div>
   </div>
